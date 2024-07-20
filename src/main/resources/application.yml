@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
+  security:
+    user:
+      name: testuser
+      password: testpassword
